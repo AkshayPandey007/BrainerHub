@@ -1,0 +1,36 @@
+.UploadBox{
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    width: 40%;
+    /* height: 00px; */
+    margin: auto;
+    padding: 30px 70px;
+    box-sizing: border-box;
+    /* margin-top: 40px; */
+}
+
+.UploadLogo{
+    height: 150px;
+}
+
+
+
+
+
+@media  (min-width:80px) and (max-width:500px){
+    .UploadBox{
+        width: 100%;
+    }
+
+
+    .ChoosePic{
+        font-size: 17px;
+    }
+}
+
+
+
+@media  (min-width:501px) and (max-width:1500px){
+    .UploadBox{
+        width: 60%;
+    }
+}
